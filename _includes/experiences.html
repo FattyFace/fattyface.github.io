@@ -15,15 +15,15 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for experience in experiences.papers %}
+  {% for publication in experiences.papers %}
   <div class="item">
-    {% if experience.link %}
-      <li><a href="{{ experience.link }}">{{ experience.title }}</a></li>
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
     {% else %}
-      <li>{{ experience.title }}</li>
+      <li>{{ publication.title }}</li>
     {% endif %}
-    <div class="experience-authors">{{ experience.authors }}</div>
-    <div class="experience-conference">{{ experience.conference }}</div>
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
   {% endfor %}
 
