@@ -45,14 +45,14 @@ career-profile:
         time: Sep.2018 — Mar.2021 (expected)
         company: Candidate for Master of Engineering in Cyberspace Security
         details: |
-            - "GPA: 3.73 out of 4.0" 
-            - "Relevant Coursework: Communication Principle and Systems, Graph and Networks, Stochastic Processes and Queuing Theory, Techniques-Database"
+            - GPA -- 3.73 out of 4.0
+            - Relevant Coursework -- Communication Principle and Systems, Graph and Networks, Stochastic Processes and Queuing Theory, Techniques-Database
       - role: Southeast University (SEU), Nanjing, China
         time: Aug.2014 — Jun.2018
         company: Bachelor of Science in Mathematics and Applied Mathematics
         details: |
-          - "GPA: 3.4 out of 4.0"
-          - "Relevant Coursework: Mathematical Analysis, Advanced Algebra, Mathematical Physics Equation, Modern Algebra, Mathematical statistics, Topology, Operations Research"
+          - GPA -- 3.4 out of 4.0
+          - Relevant Coursework -- Mathematical Analysis, Advanced Algebra, Mathematical Physics Equation, Modern Algebra, Mathematical statistics, Topology, Operations Research
 publications:
     title: Publications
     papers:
@@ -107,26 +107,26 @@ projects:
 experiences:
     - role: Big Data Intelligent Storage at the Network Edge
       time: Oct.2018 — May.2019
-      company: Information Content Analysis Technology Engineering Laboratory, SJTU
+      company: Information Content Analysis Technology Engineering Laboratory, SJTU |
           - Traditional centralized cloud storage can no longer meet the on-demand of edge computing in the case of a surge in data volume. A unified edge storage architecture can eliminate obstacles of data sharing in different edge computing systems.
           - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
           - Devised a dynamic storage policy-making mechanism based on Q-learning.
           - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional method.
     - role: Trustworthy Edge Storage in Intelligent Transportation Systems
       time: Aug.2019 — Present
-      company: Information Content Analysis Technology Engineering Laboratory, SJTU
+      company: Information Content Analysis Technology Engineering Laboratory, SJTU |
           - Based on the edge intelligent storage architecture proposed in the previous work, apply it to intelligent transportation systems, and the security of edge node storage is also considered.
           - Proposed a distributed trustworthy storage architecture with reinforcement learning in intelligent transportation systems, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
           - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperforms the comparison ones in terms of trustworthiness and efficiency.
     - role: Undergraduate thesis
       time: Jan.2018 — Jun.2018
-      company: Network Group Intelligence Laboratory, SEU
+      company: Network Group Intelligence Laboratory, SEU |
           - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
           - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
           - Simulation results showed that distributed algorithms find optimal strategies faster than centralized algorithms.
     - role: National Innovation Training Project
       time: Dec.2015 — May 2017
-      company: Network Group Intelligence Laboratory, SEU
+      company: Network Group Intelligence Laboratory, SEU |
           - Attitude stabilization plays a key role in the quadrotor system, but the model is highly non-linear, the gyro integration and the acceleration errors is large in time-varying environment.
           - Proposed a novel control algorithm and designed the Lyapunov function.
           - Proved that the system can be stabilized under the designed protocol.
