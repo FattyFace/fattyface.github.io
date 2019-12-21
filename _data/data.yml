@@ -53,7 +53,8 @@ career-profile:
         details: |
           - GPA -- 3.4 out of 4.0
           - Relevant Coursework -- Mathematical Analysis, Advanced Algebra, Mathematical Physics Equation, Modern Algebra, Mathematical statistics, Topology, Operations Research
-publications:
+
+experiences:
     title: Publications
     papers:
       - title: "Making Big Data Intelligent Storable at the Edge: Storage Resource Intelligent Orchestration"
@@ -104,7 +105,7 @@ projects:
         #link: "#"
         tagline: "Scholarly exchange to Electronic Engineering, University of Cambridge"
 
-experiences:
+publications:
     title: Experiences
     papers:
       - role: Big Data Intelligent Storage at the Network Edge
