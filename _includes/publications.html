@@ -10,23 +10,23 @@
     {{ publications.title }}
   </h2>
 
-  {% for publication in publications.papers %}
+  {% for experience in publications.papers %}
   <div class="item">
 
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ publication.role }}</h3>
-        <div class="time">{{ publication.time }}</div>
+        <h3 class="job-title">{{ experience.role }}</h3>
+        <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ publication.company }}</div>
+      <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
 
-    {% if publication.details %}
+    {% if experience.details %}
     <div class="details">
-      {{ publication.details | markdownify }}
+      {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
 
