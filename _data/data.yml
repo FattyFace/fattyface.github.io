@@ -112,7 +112,7 @@ publications:
         time: Oct.2018 — May.2019
         company: Information Content Analysis Technology Engineering Laboratory, SJTU
         details: |
-            - Traditional centralized cloud storage can no longer meet the on-demand of edge computing in the case of a surge in data volume. A unified edge storage architecture can eliminate obstacles of data sharing in different edge computing systems.
+            - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
             - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
             - Devised a dynamic storage policy-making mechanism based on Q-learning.
             - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional method.
@@ -120,23 +120,23 @@ publications:
         time: Aug.2019 — Present
         company: Information Content Analysis Technology Engineering Laboratory, SJTU
         details: |
-            - Based on the edge intelligent storage architecture proposed in the previous work, apply it to intelligent transportation systems, and the security of edge node storage is also considered.
-            - Proposed a distributed trustworthy storage architecture with reinforcement learning in intelligent transportation systems, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
+            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and the security is also considered.
+            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
-      - role: Undergraduate thesis - Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
+      - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
         time: Jan.2018 — Jun.2018
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
             - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
-      - role: National Innovation Training Project - Attitude stabilization of rigid spacecraft control problem based on quaternion
+      - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017
         company: Network Group Intelligence Laboratory, SEU
         details: |
-            - Attitude stabilization plays a key role in the quadrotor system, but the upper bound of the disturbance may not be easily obtained owing to the complexity of the structures.
+            - Hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
             - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
-            - Proved that the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
+            - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
 
 skills:
     title: Skills &amp; Proficiency
