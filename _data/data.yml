@@ -122,21 +122,21 @@ publications:
         details: |
             - Based on the edge intelligent storage architecture proposed in the previous work, apply it to intelligent transportation systems, and the security of edge node storage is also considered.
             - Proposed a distributed trustworthy storage architecture with reinforcement learning in intelligent transportation systems, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
-            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperforms the comparison ones in terms of trustworthiness and efficiency.
+            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
       - role: Undergraduate thesis
         time: Jan.2018 — Jun.2018
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
-            - Simulation results showed that distributed algorithms find optimal strategies faster than centralized algorithms.
+            - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
       - role: National Innovation Training Project
         time: Dec.2015 — May 2017
         company: Network Group Intelligence Laboratory, SEU
         details: |
-            - Attitude stabilization plays a key role in the quadrotor system, but the model is highly non-linear, the gyro integration and the acceleration errors is large in time-varying environment.
-            - Proposed a novel control algorithm and designed the Lyapunov function.
-            - Proved that the system can be stabilized under the designed protocol.
+            - Attitude stabilization plays a key role in the quadrotor system, but the upper bound of the disturbance may not be easily obtained owing to the complexity of the structures.
+            - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
+            - Proved that the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
 
 skills:
     title: Skills &amp; Proficiency
