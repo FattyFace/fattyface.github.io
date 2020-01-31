@@ -106,7 +106,7 @@ projects:
         tagline: "Scholarly exchange to Electronic Engineering, University of Cambridge"
 
 publications:
-    title: Experiences
+    title: Research Experiences
     papers:
       - role: Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019
