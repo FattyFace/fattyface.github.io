@@ -123,14 +123,14 @@ publications:
             - Based on the edge intelligent storage architecture proposed in the previous work, apply it to intelligent transportation systems, and the security of edge node storage is also considered.
             - Proposed a distributed trustworthy storage architecture with reinforcement learning in intelligent transportation systems, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
-      - role: Undergraduate thesis
+      - role: Undergraduate thesis - Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
         time: Jan.2018 — Jun.2018
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
             - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
-      - role: National Innovation Training Project
+      - role: National Innovation Training Project - Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017
         company: Network Group Intelligence Laboratory, SEU
         details: |
