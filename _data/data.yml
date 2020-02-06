@@ -110,18 +110,19 @@ publications:
     papers:
       - role: Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019
-        company: Information Content Analysis Technology Engineering Laboratory, SJTU
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
             - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
             - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
             - Devised a dynamic storage policy-making mechanism based on Q-learning.
-            - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional method.
+            - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional one.
       - role: Trustworthy Edge Storage in Intelligent Transportation Systems
         time: Aug.2019 — Present
-        company: Information Content Analysis Technology Engineering Laboratory, SJTU
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
-            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and the security is also considered.
-            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS, and proposed a trust evaluation mechanism based the interaction between cooperative devices.
+            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and also considered its security.
+            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
+            - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
       - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
         time: Jan.2018 — Jun.2018
@@ -134,7 +135,7 @@ publications:
         time: Dec.2015 — May 2017
         company: Network Group Intelligence Laboratory, SEU
         details: |
-            - Hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
+            - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
             - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
             - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
 
