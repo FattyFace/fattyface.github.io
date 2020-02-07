@@ -109,7 +109,7 @@ publications:
     title: Research Experiences
     papers:
       - role: Big Data Intelligent Storage at the Network Edge
-        time: Oct.2018 — May.2019
+        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
         company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
             - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
@@ -117,7 +117,7 @@ publications:
             - Devised a dynamic storage policy-making mechanism based on Q-learning.
             - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional one.
       - role: Trustworthy Edge Storage in Intelligent Transportation Systems
-        time: Aug.2019 — Present
+        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
         company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
             - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and also considered its security.
@@ -125,14 +125,14 @@ publications:
             - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
       - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
-        time: Jan.2018 — Jun.2018
+        time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
             - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
       - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
-        time: Dec.2015 — May 2017
+        time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
