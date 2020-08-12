@@ -66,8 +66,8 @@ experiences:
         #link: "#"
         authors: Fuli Qiao, Jun Wu, Jianhua Li, Ali Kashif Bashir, Shahid Mumtaz, and Usman Tariq
         conference: "IEEE Transactions on Intelligent Transportation Systems"
-
-projects:
+        
+publications:
     title: Research Experiences
     papers:
       - role: Electric Vehicle Charging Station Availability Prediction
@@ -114,7 +114,7 @@ projects:
             - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
             - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
             
-publications:
+projects:
     title: Awards
     assignments:
       - title: Nov.2019
