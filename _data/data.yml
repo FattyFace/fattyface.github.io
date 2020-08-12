@@ -67,7 +67,7 @@ experiences:
         authors: Fuli Qiao, Jun Wu, Jianhua Li, Ali Kashif Bashir, Shahid Mumtaz, and Usman Tariq
         conference: "IEEE Transactions on Intelligent Transportation Systems"
         
-publications:
+projects:
     title: Research Experiences
     papers:
       - role: Electric Vehicle Charging Station Availability Prediction
@@ -113,8 +113,8 @@ publications:
             - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
             - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
             - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
-            
-projects:
+
+publications:          
     title: Awards
     assignments:
       - title: Nov.2019
