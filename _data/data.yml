@@ -65,17 +65,61 @@ experiences:
       - title: "Trustworthy Edge Storage Orchestration in Intelligent Transportation Systems Using Reinforcement Learning"
         #link: "#"
         authors: Fuli Qiao, Jun Wu, Jianhua Li, Ali Kashif Bashir, Shahid Mumtaz, and Usman Tariq
-        conference: "IEEE Transactions on Intelligent Transportation Systems (submitted)"
+        conference: "IEEE Transactions on Intelligent Transportation Systems"
 
 projects:
+    title: Research Experiences
+    papers:
+      - role: Electric Vehicle Charging Station Availability Prediction
+        time: Jul.2020 — Present | advised by Prof.Shan Lin
+        company: Stony Brook University, New York
+        details: |
+            - Predict electric vehicle charging station availability in different time periods according to DNN methods.
+            - Design charging station scheduling algorithms in combination with single-user situations and multi-user competition.
+      - role: Big Data Intelligent Storage at the Network Edge
+        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        details: |
+            - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
+            - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
+            - Devised a dynamic storage policy-making mechanism based on Q-learning.
+            - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional one.
+      - role: Trustworthy Edge Storage in Intelligent Transportation Systems
+        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        details: |
+            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and also considered its security.
+            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
+            - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
+            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
+      - role: Task scheduling problem in edge/cloud computing scenarios
+        time: Apr.2020 — Jun.2020 | advised by Gang Liu
+        company: NOKIA SHANGHAI BELL, Bell Labs & CTO China, FN
+        details: |
+            - Proposed resource scheduling of edge nodes based on multi-dimensional binning problem.
+            - Designed binning algorithms with different objectives for Waste-oriented best-fit and Transmission-oriented best-fit.
+            - Used C++ to solve and compare the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
+      - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
+        time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
+        company: Network Group Intelligence Laboratory, SEU
+        details: |
+            - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
+            - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
+            - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
+      - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
+        time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
+        company: Network Group Intelligence Laboratory, SEU
+        details: |
+            - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
+            - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
+            - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
+            
+publications:
     title: Awards
     assignments:
       - title: Nov.2019
         #link: "#hook"
         tagline: "Second Prize in National Post-Graduate Mathematical Contest in Modeling (13%)"
-      - title: Apr.2017 
-        #link: "#"
-        tagline: "Second Prize in American College Students Mathematical Contest In Modeling (30%)"
 
       - title: Oct.2016
         #link: "#"
@@ -105,40 +149,6 @@ projects:
         #link: "#"
         tagline: "Scholarly exchange to Electronic Engineering, University of Cambridge"
 
-publications:
-    title: Research Experiences
-    papers:
-      - role: Big Data Intelligent Storage at the Network Edge
-        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
-        details: |
-            - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
-            - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
-            - Devised a dynamic storage policy-making mechanism based on Q-learning.
-            - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional one.
-      - role: Trustworthy Edge Storage in Intelligent Transportation Systems
-        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
-        details: |
-            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and also considered its security.
-            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
-            - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
-            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
-      - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
-        time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
-        company: Network Group Intelligence Laboratory, SEU
-        details: |
-            - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
-            - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
-            - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
-      - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
-        time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
-        company: Network Group Intelligence Laboratory, SEU
-        details: |
-            - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
-            - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
-            - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
-
 skills:
     title: Skills &amp; Proficiency
 
@@ -147,7 +157,7 @@ skills:
         level: 98%
 
       - name: Python & C++
-        level: 80%
+        level: 85%
 
       - name: Java
         level: 75%
