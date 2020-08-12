@@ -2,6 +2,7 @@
 {% if projects %}
 <section class="section projects-section">
 
+  <!--
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -9,13 +10,22 @@
     </span>
     {{ projects.title }}
   </h2>
-
+-->
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+      Experiences
+  </h2>
+<!--
   {% if projects.intro %}
   <div class="intro">
       <p>{{ projects.intro }}</p>
   </div><!--//intro-->
-  {% endif %}
-
+<!--  {% endif %}
+-->
+  <!-- 
   {% for project in projects.assignments %}
     <div class="item">
 
@@ -32,6 +42,29 @@
       {% endif %}
 
     </div><!--//item-->
+  <!--   {% endfor %}
+  -->
+   {% for project in projects.papers %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="project-title">{{ project.role }}</h3>
+          <div class="project-time">{{ project.time }}</div>
+        </div><!--//upper-row-->
+
+        <div class="project-company">{{ project.company }}</div>
+
+      </div><!--//meta-->
+
+      {% if project.details %}
+        <div class="details">
+          {{ peoject.details | markdownify }}
+        </div><!--//details-->
+      {% endif %}
+
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
