@@ -1,7 +1,7 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="section cpublications-section">
-
+ <!--
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -9,7 +9,15 @@
     </span>
       Experiences
   </h2>
-
+-->  
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ publications.title }}
+  </h2>
+  <!--
   {% for publication in publications.papers %}
   <div class="item">
 
@@ -19,18 +27,42 @@
         <h3 class="publication-title">{{ publication.role }}</h3>
         <div class="publication-time">{{ publication.time }}</div>
       </div><!--//upper-row-->
-
+<!--
       <div class="publication-company">{{ publication.company }}</div>
 
     </div><!--//meta-->
-
+<!--
     {% if publication.details %}
     <div class="details">
       {{ publication.details | markdownify }}
     </div><!--//details-->
-    {% endif %}
+<!--    {% endif %}
 
   </div><!--//item-->
+<!--  {% endfor %}
+  --> 
+ {% if publications.intro %}
+  <div class="intro">
+      <p>{{ publications.intro }}</p>
+  </div><!--//intro-->
+ {% endif %}
+
+  {% for publication in publications.assignments %}
+    <div class="item">
+
+      <span class="publication-title">
+        {% if publication.link %}
+        <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
+        {% else %}
+        {{ publication.title }}
+        {% endif %}
+      </span>
+
+      {% if publication.tagline %}
+      - <span class="publication-tagline">{{ publication.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
