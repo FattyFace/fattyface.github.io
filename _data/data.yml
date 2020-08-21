@@ -60,12 +60,12 @@ experiences:
       - title: "Making Big Data Intelligent Storable at the Edge: Storage Resource Intelligent Orchestration"
         #link: "#"
         authors: Fuli Qiao, Mianxiong Dong, Kaoru Ota, Siyi Liao, Jun Wu, and Jianhua Li
-        conference: "IEEE GLOBECOM 2019"
+        conference: "2019 IEEE Global Communications Conference (GLOBECOM), Waikoloa, HI, USA, 2019, pp. 1-6."
 
       - title: "Trustworthy Edge Storage Orchestration in Intelligent Transportation Systems Using Reinforcement Learning"
         #link: "#"
         authors: Fuli Qiao, Jun Wu, Jianhua Li, Ali Kashif Bashir, Shahid Mumtaz, and Usman Tariq
-        conference: "IEEE Transactions on Intelligent Transportation Systems"
+        conference: "IEEE Transactions on Intelligent Transportation Systems, early access, Jun. 29 2020, doi:10.1109/TITS.2020.3003211. (IF: 6.319)"
         
 projects:
     title: Research Experiences
@@ -74,8 +74,8 @@ projects:
         time: Jul.2020 — Present | advised by Prof.Shan Lin
         company: Stony Brook University, New York
         details: |
-            - Predict electric vehicle charging station availability in different time periods according to DNN methods.
-            - Design charging station scheduling algorithms in combination with single-user situations and multi-user competition.
+            - Predict electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on LSTM and Transformer models.
+            - Design a receding horizon optimization framework for EV users in combination with single-user situations and multi-user competition by using the prediction.
       - role: Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
         company: Cyberspace Security Science and Technology Laboratory, SJTU
@@ -104,7 +104,7 @@ projects:
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
-            - Proposed a new centralized and a novel distributed optimization algorithm based on Reinforcement-Learning.
+            - Proposed a new centralized and a novel distributed optimization algorithm based on Q-learning.
             - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
       - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
