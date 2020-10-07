@@ -70,7 +70,7 @@ experiences:
 projects:
     title: Research Experiences
     papers:
-     - role: Big Data Intelligent Storage at the Network Edge
+      - role: Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
         company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
