@@ -70,13 +70,7 @@ experiences:
 projects:
     title: Research Experiences
     papers:
-      - role: Electric Vehicle Charging Station Availability Prediction
-        time: Jul.2020 — Present | advised by Prof.Shan Lin
-        company: Stony Brook University, New York
-        details: |
-            - Predict electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on LSTM and Transformer models.
-            - Design a receding horizon optimization framework for EV users in combination with single-user situations and multi-user competition by using the prediction.
-      - role: Big Data Intelligent Storage at the Network Edge
+     - role: Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
         company: Cyberspace Security Science and Technology Laboratory, SJTU
         details: |
@@ -92,6 +86,12 @@ projects:
             - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
             - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
+      - role: Electric Vehicle Charging Station Availability Prediction
+        time: Jul.2020 — Present | advised by Prof.Shan Lin
+        company: Stony Brook University, New York
+        details: |
+            - Predicted electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on LSTM and Transformer models.
+            - Designed a receding horizon optimization framework for EV users in combination with single-user situations and multi-user competition by using the prediction.
       - role: Task scheduling problem in edge/cloud computing scenarios
         time: Apr.2020 — Jun.2020 | advised by Gang Liu
         company: NOKIA SHANGHAI BELL, Bell Labs & CTO China, FN
@@ -117,6 +117,14 @@ projects:
 publications:          
     title: Awards
     assignments:
+      - title: Sep.2020
+        #link: "#hook"
+        tagline: "National Scholarship for Postgraduates"
+    
+      - title: Dec.2019
+        #link: "#hook"
+        tagline: "IEEE GLOBECOM Student Travel Award"
+        
       - title: Nov.2019
         #link: "#hook"
         tagline: "Second Prize in National Post-Graduate Mathematical Contest in Modeling (13%)"
