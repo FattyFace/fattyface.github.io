@@ -70,48 +70,47 @@ experiences:
 projects:
     title: Research Experiences
     papers:
-      - role: Big Data Intelligent Storage at the Network Edge
-        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
-        details: |
-            - Lacking a unified edge storage architecture can cause obstacles of data sharing in different edge computing systems.
-            - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge.
-            - Devised a dynamic storage policy-making mechanism based on Q-learning.
-            - Simulation results showed that the task processing delay and the minimum cost of the proposed architecture are better than the traditional one.
-      - role: Trustworthy Edge Storage in Intelligent Transportation Systems
-        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
-        details: |
-            - Based on the edge intelligent storage architecture proposed in the previous work, applied it to intelligent transportation systems, and also considered its security.
-            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
-            - Proposed a trust evaluation mechanism based the interaction between cooperative devices and used trapdoor hash functions to authenticate identity.
-            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperformed the comparison ones in terms of trustworthiness and efficiency.
-      - role: Electric Vehicle Charging Station Availability Prediction
+      - role: 1. Electric Vehicle Charging Station Availability Prediction
         time: Jul.2020 — Present | advised by Prof.Shan Lin
         company: Stony Brook University, New York
         details: |
-            - Predicted electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on LSTM and Transformer models.
-            - Designed a receding horizon optimization framework for EV users in combination with single-user situations and multi-user competition by using the prediction.
-      - role: Task scheduling problem in edge/cloud computing scenarios
+            - Predicted electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on Transformer and LSTM, compared with XGBoost model.
+            - Recognized certain regular user charging patterns (arrive/departure time, charging rate over time for users’ vehicles) to improve the prediction accuracy.
+            - From the perspective of RMSE, MAPE, and consumed time, compared performances of different time granularity models (15 minutes, 30 minutes, 45 minutes, 60 minutes, 80 minutes).
+      - role: 2. Big Data Intelligent Storage at the Network Edge
+        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        details: |
+            - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge. 
+            - Devised a dynamic storage policy-making mechanism based on Q-learning.
+            - Showed task processing delay is reduced by 30% and the lowest economic cost is reduced by 15%.
+      - role: 3. Trustworthy Edge Storage in Intelligent Transportation Systems
+        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
+        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        details: |
+            - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
+            - Devised a trust evaluation mechanism based the interaction between cooperative devices.
+            - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperforms the comparison ones in terms of trustworthiness and efficiency. 
+      - role: 4. Task scheduling problem in edge/cloud computing scenarios
         time: Apr.2020 — Jun.2020 | advised by Gang Liu
         company: NOKIA SHANGHAI BELL, Bell Labs & CTO China, FN
         details: |
             - Proposed resource scheduling of edge nodes based on multi-dimensional binning problem.
-            - Designed binning algorithms with different objectives for Waste-oriented best-fit and Transmission-oriented best-fit.
-            - Used C++ to solve and compare the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
-      - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
+            - Designed greedy binning algorithms with different objectives for Waste-oriented best-fit and Transmission-oriented best-fit.
+            - Compared the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
+      - role: 5. Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
         time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
-            - Proposed a new centralized and a novel distributed optimization algorithm based on Q-learning.
-            - Simulation results showed that distributed algorithms found optimal strategies faster than centralized algorithms.
-      - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
+            - Proposed a new centralized Q-learning algorithm and a novel distributed Q-learning optimization algorithm based on First order discrete time average uniform theory.
+            - Simulation results showed distributed algorithms found optimal strategies 100 times faster in the searching process based on 15000 trials.
+      - role: 6. Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
         company: Network Group Intelligence Laboratory, SEU
         details: |
             - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
-            - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function.
+            - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function to solve the stabilization of the nonlinear system.
             - Proved the system under the designed protocol can be bounded in fixed time without upper bounds of inertia uncertainty and external disturbance.
 
 publications:          
