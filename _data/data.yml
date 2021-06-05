@@ -43,7 +43,7 @@ career-profile:
     papers: 
       - role: Shanghai Jiao Tong University (SJTU), Shanghai, China
         time: Sep.2018 — Mar.2021 (expected)
-        company: Candidate for Master of Engineering in Cyberspace Security
+        company: Candidate for Master of Engineering in Electronic Information and Electrical Engineering
         details: |
             - GPA -- 3.73 out of 4.0
             - Relevant Coursework -- Communication Principle and Systems, Graph and Networks, Stochastic Processes and Queuing Theory, Techniques-Database
@@ -79,14 +79,14 @@ projects:
             - From the perspective of RMSE, MAPE, and consumed time, compared performances of different time granularity models (15 minutes, 30 minutes, 45 minutes, 60 minutes, 80 minutes).
       - role: 2. Big Data Intelligent Storage at the Network Edge
         time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        company: Shanghai Jiao Tong University, Shanghai
         details: |
             - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge. 
             - Devised a dynamic storage policy-making mechanism based on Q-learning.
             - Showed task processing delay is reduced by 30% and the lowest economic cost is reduced by 15%.
       - role: 3. Trustworthy Edge Storage in Intelligent Transportation Systems
         time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
-        company: Cyberspace Security Science and Technology Laboratory, SJTU
+        company: Shanghai Jiao Tong University, Shanghai
         details: |
             - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
             - Devised a trust evaluation mechanism based the interaction between cooperative devices.
@@ -100,14 +100,14 @@ projects:
             - Compared the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
       - role: 5. Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
         time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
-        company: Network Group Intelligence Laboratory, SEU
+        company: Southeast University, Nanjing
         details: |
             - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized Q-learning algorithm and a novel distributed Q-learning optimization algorithm based on First order discrete time average uniform theory.
             - Simulation results showed distributed algorithms found optimal strategies 100 times faster in the searching process based on 15000 trials.
       - role: 6. Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
-        company: Network Group Intelligence Laboratory, SEU
+        company: Southeast University, Nanjing
         details: |
             - In realistic situation, it's hard to obtain the upper bound of the disturbance in spacecraft attitude stabilization.
             - Proposed a novel adpative control law with sliding mode controller and designed the Lyapunov function to solve the stabilization of the nonlinear system.
@@ -152,9 +152,6 @@ publications:
       - title: Mar.2015
         #link: "#"
         tagline: "Second Prize in Southeast University Undergraduate Innovation Experience Competition (4%)"
-      - title: Jul.2016-Aug.2016
-        #link: "#"
-        tagline: "Scholarly exchange to Electronic Engineering, University of Cambridge"
 
 skills:
     title: Skills &amp; Proficiency
