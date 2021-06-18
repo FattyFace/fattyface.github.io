@@ -59,12 +59,12 @@ experiences:
     papers:
       - title: "Making Big Data Intelligent Storable at the Edge: Storage Resource Intelligent Orchestration"
         #link: "#"
-        authors: Fuli Qiao, Mianxiong Dong, Kaoru Ota, Siyi Liao, Jun Wu, and Jianhua Li
+        authors: F. Qiao, M. Dong, K. Ota, S. Liao, J. Wu and J. Li
         conference: "2019 IEEE Global Communications Conference (GLOBECOM), Waikoloa, HI, USA, 2019, pp. 1-6."
 
       - title: "Trustworthy Edge Storage Orchestration in Intelligent Transportation Systems Using Reinforcement Learning"
         #link: "#"
-        authors: Fuli Qiao, Jun Wu, Jianhua Li, Ali Kashif Bashir, Shahid Mumtaz, and Usman Tariq
+        authors: F. Qiao, J. Wu, J. Li, A. K. Bashir, S. Mumtaz and U. Tariq
         conference: "IEEE Transactions on Intelligent Transportation Systems, early access, Jun. 29 2020, doi:10.1109/TITS.2020.3003211. (IF: 6.319)"
         
 projects:
