@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: qiaoflii@sjtu.edu.cn
+    #email: qiao@sjtu.edu.cn
     phone: +86-156-5180-5315
     website: fuliqiaohome.com #do not add http://
     #linkedin: alandoe
@@ -70,42 +70,34 @@ experiences:
 projects:
     title: Research Experiences
     papers:
-      - role: 1. Electric Vehicle Charging Station Availability Prediction
-        time: Jul.2020 — Present | advised by Prof.Shan Lin
-        company: Stony Brook University, New York
-        details: |
-            - Predicted electric vehicle charging station availability based on the real dataset through different sequence-to-sequence methods based on Transformer and LSTM, compared with XGBoost model.
-            - Recognized certain regular user charging patterns (arrive/departure time, charging rate over time for users’ vehicles) to improve the prediction accuracy.
-            - From the perspective of RMSE, MAPE, and consumed time, compared performances of different time granularity models (15 minutes, 30 minutes, 45 minutes, 60 minutes, 80 minutes).
-      - role: 2. Big Data Intelligent Storage at the Network Edge
-        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu and Prof.Jianhua Li
+      - role: Big Data Intelligent Storage at the Network Edge
+        time: Oct.2018 — May.2019 | advised by Prof.Jun Wu
         company: Shanghai Jiao Tong University, Shanghai
         details: |
             - Proposed a novel unified storage architecture for big data in the edge-cloud, which supports edge services in order to extend Hadoop at the edge. 
             - Devised a dynamic storage policy-making mechanism based on Q-learning.
             - Showed task processing delay is reduced by 30% and the lowest economic cost is reduced by 15%.
-      - role: 3. Trustworthy Edge Storage in Intelligent Transportation Systems
-        time: Aug.2019 — Present | advised by Prof.Jun Wu and Prof.Jianhua Li
+      - role: Trustworthy Edge Storage in Intelligent Transportation Systems
+        time: Aug.2019 — Jun.2020 | advised by Prof.Jun Wu
         company: Shanghai Jiao Tong University, Shanghai
         details: |
             - Proposed a distributed trustworthy storage architecture with reinforcement learning in ITS.
             - Devised a trust evaluation mechanism based the interaction between cooperative devices.
             - Simulation results demonstrated that our proposed distributed trustworthy storage architecture outperforms the comparison ones in terms of trustworthiness and efficiency. 
-      - role: 4. Task scheduling problem in edge/cloud computing scenarios
-        time: Apr.2020 — Jun.2020 | advised by Gang Liu
-        company: NOKIA SHANGHAI BELL, Bell Labs & CTO China, FN
-        details: |
-            - Proposed resource scheduling of edge nodes based on multi-dimensional binning problem.
-            - Designed greedy binning algorithms with different objectives for Waste-oriented best-fit and Transmission-oriented best-fit.
-            - Compared the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
-      - role: 5. Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning in Smart Grid 
+      #- role: Task scheduling problem in edge/cloud computing scenarios
+        #time: Apr.2020 — Jun.2020 | advised by Gang Liu
+        #company: NOKIA SHANGHAI BELL, Bell Labs & CTO China, FN
+        #details: |
+            #- Proposed resource scheduling of edge nodes based on multi-dimensional binning problem.
+            #- Designed greedy binning algorithms with different objectives for Waste-oriented best-fit and Transmission-oriented best-fit.
+            #- Compared the transmission costs, resource consumption costs, and the waste rate of edge node CPU and Memory under different schemes.
+      - role: Optimization of Economic Dispatch and Unit Commitment based Reinforcement-Learning 
         time: Jan.2018 — Jun.2018 | advised by Prof.Guanghui Wen
         company: Southeast University, Nanjing
         details: |
-            - In order to achieve the transition from traditional power systems to smart grids, economic dispatch and unit commitment issues need to be re-solved.
             - Proposed a new centralized Q-learning algorithm and a novel distributed Q-learning optimization algorithm based on First order discrete time average uniform theory.
             - Simulation results showed distributed algorithms found optimal strategies 100 times faster in the searching process based on 15000 trials.
-      - role: 6. Attitude stabilization of rigid spacecraft control problem based on quaternion
+      - role: Attitude stabilization of rigid spacecraft control problem based on quaternion
         time: Dec.2015 — May 2017 | advised by Prof.Wenwu Yu
         company: Southeast University, Nanjing
         details: |
@@ -116,21 +108,21 @@ projects:
 publications:          
     title: Awards
     assignments:
-      - title: Sep.2020
+     # - title: Sep.2020
         #link: "#hook"
-        tagline: "National Scholarship for Postgraduates"
+        #tagline: "National Scholarship for Postgraduates"
     
-      - title: Dec.2019
+      #- title: Dec.2019
         #link: "#hook"
-        tagline: "IEEE GLOBECOM Student Travel Award"
+        #tagline: "IEEE GLOBECOM Student Travel Award"
         
       - title: Nov.2019
         #link: "#hook"
         tagline: "Second Prize in National Post-Graduate Mathematical Contest in Modeling (13%)"
 
-      - title: Oct.2016
+      #- title: Oct.2016
         #link: "#"
-        tagline: "First Prize in Jiangsu Province Undergraduate Mathematical Contest In Modeling (15%)"
+        #tagline: "First Prize in Jiangsu Province Undergraduate Mathematical Contest In Modeling (15%)"
 
       - title: Nov.2019
         #link: "#"
@@ -145,9 +137,9 @@ publications:
         #link: "#"
         tagline: "Excellent Student Leader of Shanghai Jiao Tong University (5%)"
 
-      - title: Mar.2019
+      #- title: Mar.2019
         #link: "#"
-        tagline: "Excellent Student Member of Shanghai Jiao Tong University (10%)"
+        #tagline: "Excellent Student Member of Shanghai Jiao Tong University (10%)"
 
       - title: Mar.2015
         #link: "#"
